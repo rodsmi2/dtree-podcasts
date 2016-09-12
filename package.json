@@ -1,0 +1,9 @@
+{
+  "name": "dtree-podcasts",
+  "version": "1.0.0",
+  "dependencies": {
+    "id3-writer": "^1.2.2",
+    "moment": "^2.14.1",
+    "node-ffprobe": "^1.2.2"
+  }
+}
