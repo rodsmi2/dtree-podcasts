@@ -13,7 +13,7 @@ var title = oneOff ? process.argv[process.argv.length - 1] : "A Broken Bride: A 
 
 var meta = new id3.Meta({
   title: title,
-  artist: "Disciple Tree Church ::: Rod Smith",
+  artist: "Disciple Tree Church ::: Justin Tollison",
   album: oneOff ? "Sermons" : "A Broken Bride: A Study of 1 Corinthians"
 }, [coverImage]);
 
@@ -42,7 +42,7 @@ writer.setFile(file).write(meta, (err) => {
       var template = `
 <item>
   <title>${titleDate} - ${title}</title>
-  <itunes:author>Disciple Tree Church ::: Rod Smith</itunes:author>
+  <itunes:author>Disciple Tree Church ::: Justin Tollison</itunes:author>
   <itunes:subtitle></itunes:subtitle>
   <itunes:summary></itunes:summary>
   <itunes:image href="http://discipletreechurch.com/media_files/${imageUrl}"/>
